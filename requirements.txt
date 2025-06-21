@@ -1,0 +1,8 @@
+pypdf # Loading PDFs
+langchain # LLM Library
+chromadb # Vector storage
+pytest # Unit Testing
+boto3
+langchain-chroma
+langchain-community
+langchain-ollama
