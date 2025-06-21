@@ -7,15 +7,15 @@ https://www.youtube.com/watch?v=2TJxpyO3ei4
 https://github.com/pixegami/rag-tutorial-v2
 
 ## Create venv ragvenv
-D:\ws\ai\rag-tutorial-v2> `python -m venv ragvenv`
+D:\ws\ai\RAG-ChatAgent-Ollama> `python -m venv ragvenv`
 
 ## Activate
-D:\ws\ai\rag-tutorial-v2> `ragvenv\Scripts\activate` <br/>
-(ragvenv) PS D:\ws\ai\rag-tutorial-v2>
+D:\ws\ai\RAG-ChatAgent-Ollama> `ragvenv\Scripts\activate` <br/>
+(ragvenv) D:\ws\ai\RAG-ChatAgent-Ollama>
 
 ## Install libraries
 
-(ragvenv) PS D:\ws\ai\rag-tutorial-v2> `pip install -r requirements.txt`
+(ragvenv) D:\ws\ai\RAG-ChatAgent-Ollama> `pip install -r requirements.txt`
 
 ## Process 
 Original Text --> Text Splitter (Chunks of Text into Vector Database) --> Embeddings
