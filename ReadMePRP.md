@@ -1,10 +1,4 @@
-# Python RAG Tutorial (with Local LLMs): AI For Your PDFs
-
-## Youtube Link
-https://www.youtube.com/watch?v=2TJxpyO3ei4
-
-## Github link
-https://github.com/pixegami/rag-tutorial-v2
+# Python RAG Chat Agent (with Local LLMs - Ollama): AI For Your PDFs
 
 ## Create venv ragvenv
 D:\ws\ai\RAG-ChatAgent-Ollama> `python -m venv ragvenv`
@@ -49,18 +43,18 @@ Make changes to the ollma data model  name in the below two files
 (mistral or llama2)
 
 get_embedding_function.py
-query_data.py
+local_rag_chat.py
 
 ## to populate the database
-`python populate_database.py`
+`python update_vdb.py`
 
 ## to query the data from generated/populated database
 
-python query_data.py "How do I build a hotel in Monopoly?"
+python local_rag_chat.py "How do I build a hotel in Monopoly?"
 
-python query_data.py "How many clues can I give in Codenames?"
+python local_rag_chat.py "How many clues can I give in Codenames?"
 
-python query_data.py "How do I get out of jail in Monopoly?"
+python local_rag_chat.py "How do I get out of jail in Monopoly?"
 
 ## to view data from chroma vector db
-python viewchromadb.py
+python view_chroma_vdb.py
